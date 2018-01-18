@@ -48,9 +48,9 @@
         <div class="sidebar-module">
           <h4>分类目录</h4>
           <ol class="list-unstyled">
-            <li><a href="#">教程</a></li>
-            <li><a href="#">学习笔记</a></li>
-            <li><a href="#">经验</a></li>
+            {% for clazz in classifys %}
+            <li><a href="/posts?classify={{ clazz.classify }}">{{ clazz.classify }}</a></li>
+            {% endfor %}
           </ol>
         </div>
         <div class="sidebar-module">
@@ -70,19 +70,18 @@
         <div class="sidebar-module">
           <h4>标签</h4>
           <ol class="list-unstyled">
-            <li><a href="#">Java</a></li>
-            <li><a href="#">Python</a></li>
-            <li><a href="#">JavaScript</a></li>
-            <li><a href="#">Golang</a></li>
+            {% for tag in tags %}
+            <li><a href="/posts?tag={{ tag.tag }}">{{ tag.tag }}</a></li>
+            {% endfor %}
           </ol>
         </div>
         <div class="sidebar-module">
           <h4>友情链接</h4>
           <ol class="list-unstyled">
-            <li><a href="#">GitHub</a></li>
-            <li><a href="#">ZhiHu</a></li>
-            <li><a href="#">Google</a></li>
-            <li><a href="#">StackOverFlow</a></li>
+            <li><a href="https://github.com/">GitHub</a></li>
+            <li><a href="https://zhihu.com/">ZhiHu</a></li>
+            <li><a href="https://google.com/">Google</a></li>
+            <li><a href="https://stackoverflow.com/">StackOverFlow</a></li>
           </ol>
         </div>
       </div>
@@ -92,6 +91,6 @@
     <p>Blog template built by @Caoyuxuan</a>.</p>
   </footer>
   <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
-  <script src="./bootstrap/js/bootstrap.js"></script>
+  <script src="{% static '/bootstrap/js/bootstrap.js' %}"></script>
 </body>
 </html>
