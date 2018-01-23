@@ -1,0 +1,103 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	../blog/migrations/0001_initial.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../story_of_coder_blog/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+BASE_DIR	../story_of_coder_blog/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+BlogConfig	../blog/apps.py	/^class BlogConfig(AppConfig):$/;"	kind:class	line:4
+CategoryInfo	../blog/models.py	/^class CategoryInfo(models.Model):$/;"	kind:class	line:8
+CategoryInfoAdmin	../blog/admin.py	/^class CategoryInfoAdmin(admin.ModelAdmin):$/;"	kind:class	line:11
+Comments	../comments/models.py	/^class Comments(models.Model):$/;"	kind:class	line:6
+CommentsConfig	../comments/apps.py	/^class CommentsConfig(AppConfig):$/;"	kind:class	line:4
+DATABASES	../story_of_coder_blog/settings.py	/^DATABASES = {$/;"	kind:variable	line:81
+DEBUG	../story_of_coder_blog/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+INSTALLED_APPS	../story_of_coder_blog/settings.py	/^INSTALLED_APPS = ($/;"	kind:variable	line:33
+LANGUAGE_CODE	../story_of_coder_blog/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:92
+MIDDLEWARE_CLASSES	../story_of_coder_blog/settings.py	/^MIDDLEWARE_CLASSES = ($/;"	kind:variable	line:46
+Migration	../blog/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Post	../blog/models.py	/^class Post(models.Model):$/;"	kind:class	line:11
+PostAdmin	../blog/admin.py	/^class PostAdmin(admin.ModelAdmin):$/;"	kind:class	line:5
+ROOT_URLCONF	../story_of_coder_blog/settings.py	/^ROOT_URLCONF = 'story_of_coder_blog.urls'$/;"	kind:variable	line:57
+SECRET_KEY	../story_of_coder_blog/settings.py	/^SECRET_KEY = '_1@$!n9^-t&&9d!(*$)c(#2b+fp#da*q)o-oiv5+$bm7&nlscz'$/;"	kind:variable	line:23
+STATIC_URL	../story_of_coder_blog/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:106
+TEMPLATES	../story_of_coder_blog/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:59
+TIME_ZONE	../story_of_coder_blog/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:94
+TagInfo	../blog/models.py	/^class TagInfo(models.Model):$/;"	kind:class	line:5
+TagInfoAdmin	../blog/admin.py	/^class TagInfoAdmin(admin.ModelAdmin):$/;"	kind:class	line:8
+USE_I18N	../story_of_coder_blog/settings.py	/^USE_I18N = True$/;"	kind:variable	line:96
+USE_L10N	../story_of_coder_blog/settings.py	/^USE_L10N = True$/;"	kind:variable	line:98
+USE_TZ	../story_of_coder_blog/settings.py	/^USE_TZ = True$/;"	kind:variable	line:100
+User	../user/models.py	/^class User(models.Model):$/;"	kind:class	line:4
+UserConfig	../user/apps.py	/^class UserConfig(AppConfig):$/;"	kind:class	line:4
+WSGI_APPLICATION	../story_of_coder_blog/settings.py	/^WSGI_APPLICATION = 'story_of_coder_blog.wsgi.application'$/;"	kind:variable	line:75
+__init__.py	../blog/__init__.py	1;"	kind:file	line:1
+__init__.py	../blog/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../comments/__init__.py	1;"	kind:file	line:1
+__init__.py	../comments/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../story_of_coder_blog/__init__.py	1;"	kind:file	line:1
+__init__.py	../user/__init__.py	1;"	kind:file	line:1
+__init__.py	../user/migrations/__init__.py	1;"	kind:file	line:1
+about	../blog/views.py	/^def about(request):$/;"	kind:function	line:39
+admin.py	../blog/admin.py	1;"	kind:file	line:1
+admin.py	../comments/admin.py	1;"	kind:file	line:1
+admin.py	../user/admin.py	1;"	kind:file	line:1
+application	../story_of_coder_blog/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../blog/apps.py	1;"	kind:file	line:1
+apps.py	../comments/apps.py	1;"	kind:file	line:1
+apps.py	../user/apps.py	1;"	kind:file	line:1
+author	../blog/models.py	/^  author = models.OneToOneField(User)$/;"	kind:variable	line:13
+category	../blog/models.py	/^  category = models.CharField(max_length=100)$/;"	kind:variable	line:9
+category	../blog/models.py	/^  category = models.ForeignKey(CategoryInfo, related_name='category')$/;"	kind:variable	line:16
+changeTime	../blog/models.py	/^  changeTime = models.DateTimeField()$/;"	kind:variable	line:15
+comment	../comments/models.py	/^  comment = models.TextField()$/;"	kind:variable	line:7
+content	../blog/models.py	/^  content = models.TextField()/;"	kind:variable	line:18
+createTime	../blog/models.py	/^  createTime = models.DateTimeField()$/;"	kind:variable	line:14
+dependencies	../blog/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:12
+email	../user/models.py	/^  email = models.EmailField()$/;"	kind:variable	line:8
+feature	../blog/views.py	/^def feature(request):$/;"	kind:function	line:42
+fields	../blog/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
+fields	../blog/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:25
+fields	../blog/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:38
+home	../blog/views.py	/^def home(request):$/;"	kind:function	line:7
+identity	../user/models.py	/^  identity = models.CharField(max_length=50)/;"	kind:variable	line:9
+initial	../blog/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:10
+list_display	../blog/admin.py	/^  list_display = ['classify']$/;"	kind:variable	line:12
+list_display	../blog/admin.py	/^  list_display = ['tag']$/;"	kind:variable	line:9
+list_display	../blog/admin.py	/^  list_display = ['title', 'author', 'createTime', 'changeTime', 'classify', 'tag', 'content']$/;"	kind:variable	line:6
+login	../user/views.py	/^def login(request):$/;"	kind:function	line:5
+logout	../user/views.py	/^def logout(request):$/;"	kind:function	line:8
+manage.py	../manage.py	1;"	kind:file	line:1
+models.py	../blog/models.py	1;"	kind:file	line:1
+models.py	../comments/models.py	1;"	kind:file	line:1
+models.py	../user/models.py	1;"	kind:file	line:1
+name	../blog/apps.py	/^    name = 'blog'$/;"	kind:variable	line:5
+name	../blog/migrations/0001_initial.py	/^            name='Classify',$/;"	kind:variable	line:17
+name	../blog/migrations/0001_initial.py	/^            name='Post',$/;"	kind:variable	line:24
+name	../blog/migrations/0001_initial.py	/^            name='Tags',$/;"	kind:variable	line:37
+name	../comments/apps.py	/^    name = 'comments'$/;"	kind:variable	line:5
+name	../user/apps.py	/^    name = 'user'$/;"	kind:variable	line:5
+operations	../blog/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
+password	../user/models.py	/^  password = models.CharField(max_length=50)$/;"	kind:variable	line:6
+post	../blog/views.py	/^def post(request, post_id):$/;"	kind:function	line:32
+post	../comments/models.py	/^  post = models.ForeignKey(Post)/;"	kind:variable	line:9
+posts	../blog/views.py	/^def posts(request):$/;"	kind:function	line:15
+regist	../user/views.py	/^def regist(request):$/;"	kind:function	line:11
+settings.py	../story_of_coder_blog/settings.py	1;"	kind:file	line:1
+tag	../blog/models.py	/^  tag = models.CharField(max_length=100)$/;"	kind:variable	line:6
+tag	../blog/models.py	/^  tag = models.ForeignKey(TagInfo, related_name='tag')$/;"	kind:variable	line:17
+telephone	../user/models.py	/^  telephone = models.CharField(max_length=20)$/;"	kind:variable	line:7
+tests.py	../blog/tests.py	1;"	kind:file	line:1
+tests.py	../comments/tests.py	1;"	kind:file	line:1
+tests.py	../user/tests.py	1;"	kind:file	line:1
+title	../blog/models.py	/^  title = models.CharField(max_length=200)$/;"	kind:variable	line:12
+urlpatterns	../story_of_coder_blog/urls.py	/^urlpatterns = [$/;"	kind:variable	line:20
+urls.py	../story_of_coder_blog/urls.py	1;"	kind:file	line:1
+user	../comments/models.py	/^  user = models.ForeignKey(User)$/;"	kind:variable	line:8
+username	../user/models.py	/^  username = models.CharField(max_length=50)$/;"	kind:variable	line:5
+views.py	../blog/views.py	1;"	kind:file	line:1
+views.py	../comments/views.py	1;"	kind:file	line:1
+views.py	../user/views.py	1;"	kind:file	line:1
+wsgi.py	../story_of_coder_blog/wsgi.py	1;"	kind:file	line:1
